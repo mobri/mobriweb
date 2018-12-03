@@ -17,7 +17,7 @@ form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+section, summary, time, mark, audio, {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -3414,6 +3414,18 @@ input, select, textarea {
 		position: absolute;
 	}
 
+/* Video */
+	
+	video#bgvid{
+		min-width:100%;
+		min-height:100%;
+		width:auto;
+		height:auto;
+		background:url("../../video/IMG_6925.MP4") no-repeat;
+		background:size cover;
+	}
+	
+	
 /* Banner */
 
 	#banner {
@@ -3426,7 +3438,7 @@ input, select, textarea {
 		min-height: 100vh;
 		position: relative;
 		text-align: center;
-		z-index: 21;
+		z-index: 31;
 	}
 
 		#banner:before {
